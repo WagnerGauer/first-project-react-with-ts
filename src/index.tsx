@@ -1,6 +1,7 @@
 // 1) Import ReactDOM library
 import ReactDOM from "react-dom/client";
 import GuestList from "./state/GuestList";
+import UserSearch from "./state/UserSearch";
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -12,7 +13,8 @@ const root = ReactDOM.createRoot(el!);
 const App = () => {
   return (
     <div>
-      <GuestList />
+      {/* <GuestList /> */}
+      <UserSearch />
     </div>
   );
 };
