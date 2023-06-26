@@ -2,6 +2,7 @@
 import ReactDOM from "react-dom/client";
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
+import EventComponent from "./events/EventComponent";
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -14,7 +15,8 @@ const App = () => {
   return (
     <div>
       {/* <GuestList /> */}
-      <UserSearch />
+      {/* <UserSearch /> */}
+      <EventComponent />
     </div>
   );
 };
